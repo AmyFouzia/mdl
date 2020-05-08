@@ -9,7 +9,7 @@ def draw_scanline(x0, z0, x1, z1, y, screen, zbuffer, color):
         x0 = x1
         z0 = z1
         x1 = tx
-        z1 = tz
+        z1 = tz  
 
     x = x0
     z = z0
